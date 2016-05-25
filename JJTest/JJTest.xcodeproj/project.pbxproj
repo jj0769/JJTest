@@ -15,6 +15,7 @@
 		3FE5F1DC1CF58FB30000C079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5F1DA1CF58FB30000C079 /* LaunchScreen.storyboard */; };
 		3FE5F1E71CF58FB30000C079 /* JJTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5F1E61CF58FB30000C079 /* JJTestTests.m */; };
 		3FE5F1F21CF58FB30000C079 /* JJTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5F1F11CF58FB30000C079 /* JJTestUITests.m */; };
+		3FE5F2011CF591F80000C079 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5F2001CF591F80000C079 /* FirstViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3FE5F1ED1CF58FB30000C079 /* JJTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE5F1F11CF58FB30000C079 /* JJTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTestUITests.m; sourceTree = "<group>"; };
 		3FE5F1F31CF58FB30000C079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE5F1FF1CF591F80000C079 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3FE5F2001CF591F80000C079 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				3FE5F1D01CF58FB30000C079 /* AppDelegate.m */,
 				3FE5F1D21CF58FB30000C079 /* ViewController.h */,
 				3FE5F1D31CF58FB30000C079 /* ViewController.m */,
+				3FE5F1FF1CF591F80000C079 /* FirstViewController.h */,
+				3FE5F2001CF591F80000C079 /* FirstViewController.m */,
 				3FE5F1D51CF58FB30000C079 /* Main.storyboard */,
 				3FE5F1D81CF58FB30000C079 /* Assets.xcassets */,
 				3FE5F1DA1CF58FB30000C079 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				3FE5F1D41CF58FB30000C079 /* ViewController.m in Sources */,
 				3FE5F1D11CF58FB30000C079 /* AppDelegate.m in Sources */,
 				3FE5F1CE1CF58FB30000C079 /* main.m in Sources */,
+				3FE5F2011CF591F80000C079 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +505,7 @@
 				3FE5F1F81CF58FB30000C079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE5F1F91CF58FB30000C079 /* Build configuration list for PBXNativeTarget "JJTestTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				3FE5F1FB1CF58FB30000C079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FE5F1FC1CF58FB30000C079 /* Build configuration list for PBXNativeTarget "JJTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				3FE5F1FE1CF58FB30000C079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
